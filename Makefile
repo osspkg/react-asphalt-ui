@@ -30,4 +30,5 @@ pack: build
 	$(NPM) pack --dry-run
 
 publish: build
+	$(NPM) version patch
 	$(NPM) publish --access public
