@@ -31,4 +31,4 @@ pack: build
 
 publish: build
 	$(NPM) version patch
-	$(NPM) publish --access public
+	$(NPM) publish --access public --verbose
